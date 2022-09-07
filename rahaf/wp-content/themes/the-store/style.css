@@ -1,0 +1,96 @@
+/*
+ Theme Name: The Store
+ Theme URI: https://themehunk.com/product/top-store/
+ Author: ThemeHunk
+ Author URI: https://www.themehunk.com
+ Template: top-store
+ Description: The Store is a powerful responsive eCommerce WordPress theme specially designed for eStore websites. Theme is deeply integrated with WooCommerce plugin to sell your products online. Best suited for websites like electronic, food, home appliances site, gadget store, jewelry shop, fashion shop, furniture, grocery, clothing, and decorative stores. Theme contains multiple widgets options, Header and footer layout combinations, Color and Background option. It also has Sidebar option for both the FrontPage and inner pages to show Widgets. Some highlighted features are Advance product search, Top slider layout, Product carousel, Product carousel with tabbed category filter, Woo Category slider, Product list layout, Top header with three layouts, Ribbon section, Brand Section, Call to Action section. It is supported by widgets like Highlight Widget, Testimonial Widget and Blog post widget slider. Theme has some special features like Quick View, Compare Products, Wishlist, Dropdown cart, AJAX Search, Pre loader, and Social icons. Th Store is Integrated with Lead Form Builder and WP Popup Builder Plugin. You can Import the whole demo in just one click. It has a neat and clean Customize panel which makes your website designing easier. Check Out Demo – https://themeth.com/wp-themes/topstore/
+ Version: 1.0.1
+ Requires at least: 4.5
+ Tested up to: 6.0
+ Requires PHP: 5.6
+ License: GNU General Public License v3 or later
+ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+ Text Domain: the-store
+ Tags: e-commerce, blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-image-header, featured-images, custom-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+ This theme, like WordPress, is licensed under the GPL.
+ Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+article.thunk-post-article.post{
+float:left;
+width:32%;
+clear:none;
+margin-right:2%;
+}
+article.thunk-post-article.post:nth-child(3n+3){
+margin-right:0;
+}
+
+.thunk-icon-market .taiowc-icon svg{
+fill:#fff;
+}
+.thunk-icon-market .taiowc-content .taiowc-total{
+color:#fff;
+}
+
+.main-header-bar .header-icon a:hover{
+color: #fff!important;    
+}
+
+.thunk-icon-market .cart-icon .taiowc-cart-item{
+ padding-left: 0;   
+}
+.th-search-inner {
+    position: relative;
+}
+.th-search-close {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    color: #a7a7a7;
+    font-size: 21px;
+    float:none;
+    position: absolute;
+   top: 5px;
+    right: 0;
+}
+.thunk-post-excerpt a,.textwidget a{
+text-decoration:underline!important;
+}
+@media screen and (max-width: 768px){
+.thunk-icon-market .taiowc-content .taiowc-total{
+    display: none;
+}
+.main-header.mhdrsix .cart-icon {
+    width: auto;
+    padding-left: 0;
+    margin-left: 0;
+}
+.thunk-icon-market .cart-count-item {
+    display: none;
+}
+.th-search-close {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    color: #a7a7a7;
+    font-size: 21px;
+    float:none;
+    position: absolute;
+   top: 5px;
+   right: auto;
+    left: 0;
+}
+
+article.thunk-post-article.post{
+float:left;
+width:48%;
+clear:none;
+margin-right:2%;
+}
+article.thunk-post-article.post:nth-child(2n+2){
+margin-right:0;
+}
+}
